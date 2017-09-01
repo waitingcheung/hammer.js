@@ -5,4 +5,4 @@ node_js:
 sudo: false
 
 script:
-  - npm run test
+  - nyc npm run test
